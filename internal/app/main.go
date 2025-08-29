@@ -14,6 +14,7 @@ type App struct {
 	handler   *handlers.Handler
 }
 
+
 func Start() {
 	app := new(App)
 	if err := app.Bootstrap(); err != nil {
