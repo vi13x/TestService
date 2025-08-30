@@ -10,6 +10,7 @@ const (
 	handlerStatusClosed uint32 = 1
 )
 
+
 type shutdownHandler struct {
 	stop      chan os.Signal
 	forceStop chan struct{}
